@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Localhost - diariodebordo">
+    <serverData>
+      <paths name="Localhost - diariodebordo">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="diariodebordo" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
