@@ -44,11 +44,10 @@ session_start();
             </form>
 
             <div id="formFooter">
-                <a class="underlineHover" href="esqueceusenha.php">Esqueceu a senha?</a> <br>
-                <a class="underlineHover" href="#">Cadastrar</a> <br><br>
-                    <small class="text-muted">Desenvolvido por Marcos Yamashita</small>
+                <a class="underlineHover" href="#">Esqueceu a senha?</a> <br>
+                <a class="underlineHover" href="cadastro.php">Cadastrar</a>
             </div>
-
+            <small class="text-muted">Desenvolvido por Marcos Yamashita</small>
         </div>
     </div>
 </body>
