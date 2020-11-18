@@ -33,7 +33,7 @@ session_start();
             <div>
                 <p>CADASTRO DE USUÁRIO</p>
             </div>
-            <form action="cadastrousuario.php" method="GET">
+            <form action="cadastrousuario.php" method="POST">
                 <input type="text" id="usuario" class="fadeIn second" name="usuario" placeholder="Digite o nome do usuário" required>
                 <input type="text" id="cpf" class="fadeIn second" name="cpf" placeholder="Digite o CPF Somente numeros" required maxlength="11">
                 <input type="email" id="email" class="fadeIn second" name="email" placeholder="Digite o email" required>
