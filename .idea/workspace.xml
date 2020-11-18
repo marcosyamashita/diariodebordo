@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d3a4b95-5a1c-4d70-94f2-8e31813529ae" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/errosenha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastrodiario.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cadastro.php" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cadastrousuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/cadastrousuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/painel.php" beforeDir="false" afterPath="$PROJECT_DIR$/painel.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,8 +45,8 @@
       <file leaf-file-name="cadastro.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cadastro.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="845">
+              <caret line="67" column="7" lean-forward="true" selection-start-line="11" selection-end-line="67" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -61,11 +60,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="errosenha.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="errosenha.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/errosenha.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="33" column="123" selection-start-line="33" selection-start-column="123" selection-end-line="33" selection-end-column="123" />
+            <state relative-caret-position="510">
+              <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastrodiario.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cadastrodiario.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="painel.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/painel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -96,7 +113,6 @@
       <list>
         <option value="$PROJECT_DIR$/conexao.php" />
         <option value="$PROJECT_DIR$/logout.php" />
-        <option value="$PROJECT_DIR$/painel.php" />
         <option value="$PROJECT_DIR$/verifica_login.php" />
         <option value="$PROJECT_DIR$/esqueceusenha.php" />
         <option value="$PROJECT_DIR$/index.php" />
@@ -105,6 +121,8 @@
         <option value="$PROJECT_DIR$/cadastro.php" />
         <option value="$PROJECT_DIR$/cadastrousuario.php" />
         <option value="$PROJECT_DIR$/errosenha.php" />
+        <option value="$PROJECT_DIR$/cadastrodiario.php" />
+        <option value="$PROJECT_DIR$/painel.php" />
       </list>
     </option>
   </component>
@@ -178,12 +196,12 @@
       <updated>1605449471366</updated>
       <workItem from="1605449472754" duration="1764000" />
       <workItem from="1605567768739" duration="16930000" />
-      <workItem from="1605661600518" duration="10997000" />
+      <workItem from="1605661600518" duration="14404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29691000" />
+    <option name="totallyTimeSpent" value="33098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -215,6 +233,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/conexao.php">
@@ -268,13 +291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/painel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/verifica_login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -296,10 +312,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
+    <entry file="file://$PROJECT_DIR$/cadastrousuario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="480">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errosenha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -310,24 +333,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cadastrousuario.php">
+    <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cadastrodiario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cadastro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="845">
+          <caret line="67" column="7" lean-forward="true" selection-start-line="11" selection-end-line="67" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/errosenha.php">
+    <entry file="file://$PROJECT_DIR$/painel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="33" column="123" selection-start-line="33" selection-start-column="123" selection-end-line="33" selection-end-column="123" />
+        <state relative-caret-position="321">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
         </state>
       </provider>
     </entry>
