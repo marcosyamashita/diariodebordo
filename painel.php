@@ -81,14 +81,15 @@ include('verifica_login.php');
                                 </div>
                                 <div class="form-group row">
                                     <label for="example-text-input" class="col-2 col-form-label">Titulo:</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="text" value="" id="titulo">
+                                    <div class="col-8">
+                                        <input class="form-control" type="text" value="" id="titulo" required>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="example-text-input" class="col-2 col-form-label">Atividade:</label>
-                                    <div class="col-10">
-                                        <input class="form-control" type="text" value="" id="atividade">
+                                    <div class="col-8">
+                                        <textarea class="form-control" name="atividade" cols="20" rows="5" required></textarea>
+                                        <!--<input class="form-control" type="text" value="" id="atividade" rows="5">-->
                                     </div>
                                 </div>
 
