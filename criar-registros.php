@@ -5,18 +5,18 @@ include "header.php";
 ?>
 
 
-<div>
+<div class="row">
     <form class="form-group" action="controller/adicionar-atividade.php" method="post">
         <div class="form-group form-inline row">
             <label for="example-date-input" class="col-2 col-form-label">Inicio</label>
-            <div class="col-10">
+            <div class="col-10 row">
                 <input class="form-control" type="date" value="" name="dateInicio" id="dateInicio">
                 <input class="form-control" type="time" value="" name="timeInicio" id="timeInicio">
             </div>
         </div>
         <div class="form-group form-inline row">
             <label for="example-date-input" class="col-2 col-form-label">Fim</label>
-            <div class="col-8">
+            <div class="col-10 row">
                 <input class="form-control" type="date" value="" name="dateFim" id="dateFim">
                 <input class="form-control" type="time" value="" name="timeFim" id="timeFim">
             </div>
@@ -34,8 +34,9 @@ include "header.php";
                 <!--<input class="form-control" type="text" value="" id="atividade" rows="5">-->
             </div>
         </div>
-
-        <input type="submit" value="Gravar"><input type="reset" value="Resetar">
+        <div class="form-group row">
+            <input type="submit" value="Gravar"><input type="reset" value="Resetar">
+        </div>
         <br>
 
     </form>
