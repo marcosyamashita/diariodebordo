@@ -56,22 +56,14 @@ $dateInicioConsulta = date("Y-m-d");
         </ul>
     </div>
 </nav>
-    <section id="tabs">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <nav >
-                        <div>
-                            <a href="criar-registros.php"><input type="button" value="Criar Registros"></a>
-                            <a href="consultar-registros.php"><input type="button" value="Consultar Registro"></a>
-                            <a href="relatorios.php"><input type="button" value="Relatorios"></a>
-                        </div>
-                    </nav>
-                </div>
-
-            </div>
-        </div>
-    </section>
-</body>
-
-</html>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav>
+                    <div>
+                        <a href="criar-registros.php"><input type="button" value="Criar Registros"></a>
+                        <a href="consultar-registros.php"><input type="button" value="Consultar Registro"></a>
+                        <a href="relatorios.php"><input type="button" value="Relatorios"></a>
+                    </div>
+                </nav>
