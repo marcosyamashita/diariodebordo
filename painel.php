@@ -64,25 +64,25 @@ include('verifica_login.php');
                     </nav>
                     <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                            <form>
+                            <form action="controller/adicionar-atividade.php" method="post">
                                 <div class="form-group form-inline row">
                                     <label for="example-date-input" class="col-2 col-form-label">Inicio</label>
                                     <div class="col-8">
-                                        <input class="form-control" type="date" value="" id="dateInicio">
-                                        <input class="form-control" type="time" value="" id="timeInicio">
+                                        <input class="form-control" type="date" value="" name="dateInicio" id="dateInicio">
+                                        <input class="form-control" type="time" value="" name="timeInicio" id="timeInicio">
                                     </div>
                                 </div>
                                 <div class="form-group form-inline row">
                                     <label for="example-date-input" class="col-2 col-form-label">Fim</label>
                                     <div class="col-8">
-                                        <input class="form-control" type="date" value="" id="dateFim">
-                                        <input class="form-control" type="time" value="" id="timeFim">
+                                        <input class="form-control" type="date" value="" name="dateFim" id="dateFim">
+                                        <input class="form-control" type="time" value="" name="timeFim" id="timeFim">
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="example-text-input" class="col-2 col-form-label">Titulo:</label>
                                     <div class="col-8">
-                                        <input class="form-control" type="text" value="" id="titulo" required>
+                                        <input class="form-control" type="text" value="" name="titulo" id="titulo" required>
                                     </div>
                                 </div>
                                 <div class="form-group row">
@@ -93,7 +93,7 @@ include('verifica_login.php');
                                     </div>
                                 </div>
 
-                                <input type="button" value="Gravar"><input type="reset" value="Resetar">
+                                <input type="submit" value="Gravar"><input type="reset" value="Resetar">
 
                             </form>
                         </div>
