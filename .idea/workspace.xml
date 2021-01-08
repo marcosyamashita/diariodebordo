@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8d3a4b95-5a1c-4d70-94f2-8e31813529ae" name="Default" comment="Ajustando elementos front!">
       <change beforePath="$PROJECT_DIR$/consultar-registros.php" beforeDir="false" afterPath="$PROJECT_DIR$/consultar-registros.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,16 +22,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="consultar-registros.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="consultar-registros.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/consultar-registros.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="44" />
+            <state relative-caret-position="477">
+              <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="439">
@@ -58,6 +57,7 @@
       <find>third</find>
       <find>text</find>
       <find>button</find>
+      <find>submit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -82,8 +82,8 @@
         <option value="$PROJECT_DIR$/painel.php" />
         <option value="$PROJECT_DIR$/criar-registros.php" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/consultar-registros.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/consultar-registros.php" />
       </list>
     </option>
   </component>
@@ -179,18 +179,18 @@
       <workItem from="1609898156972" duration="2053000" />
       <workItem from="1609972842628" duration="1723000" />
       <workItem from="1610066608463" duration="12639000" />
-      <workItem from="1610111501306" duration="2936000" />
+      <workItem from="1610111501306" duration="3577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61013000" />
+    <option name="totallyTimeSpent" value="61654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20757738" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20757738" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -559,17 +559,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consultar-registros.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
           <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consultar-registros.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
         </state>
       </provider>
     </entry>

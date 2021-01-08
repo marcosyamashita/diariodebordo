@@ -28,13 +28,13 @@ include "header.php";
 
     <div>
         <table class="table">
-            <thead class="table-dark">
+            <thead class="table-dark table-bordered text-center">
             <tr>
                 <th>Título</th>
                 <th>Atividade</th>
                 <th>Data de Início</th>
                 <th>Usuário</th>
-                <th>Ações</th>
+                <th colspan="2">Ações</th>
             </tr>
             </thead>
             <tbody>
@@ -46,8 +46,8 @@ include "header.php";
                 echo "<td>{$exibe['atividade']}</td>";
                 echo "<td>{$exibe['dateInicio']}</td>";
                 echo "<td>{$exibe['usuario']}</td>";
-                echo "<td><button>Editar</button></td>";
-                echo "<td><button>Excluir</button></td>";
+                echo "<td class='text-center'><button>Editar</button></td>";
+                echo "<td class='text-center'><button>Excluir</button></td>";
                 echo "</tr>";
             } ?>
             </tbody>
