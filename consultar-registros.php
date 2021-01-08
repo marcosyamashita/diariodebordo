@@ -2,6 +2,7 @@
 
 include "header.php";
 
+
 ?>
 
 
@@ -9,14 +10,13 @@ include "header.php";
     <form method="post">
         <div class="form-group form-inline row">
             <label for="example-date-input" class="col-2 col-form-label">Inicio</label>
-            <div class="col-8">
-                <input class="form-control" type="date" value="<?=date("Y-m-d")?> name="dateInicioConsulta" id="dateInicioConsulta">
-                <input type="submit" value="Aplicar">
-            </div>
+                <input class="form-control" type="date" value="" name="dateInicioConsulta" id="dateInicioConsulta">
+                <input class="" type="submit" value="Aplicar">
         </div>
+
         <?php
 
-        if (isset($_POST[$dateInicioConsulta])){
+        if (isset($_POST['dateInicioConsulta'])){
 
         $dateInicioConsulta = $_POST['dateInicioConsulta'];
 
