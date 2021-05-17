@@ -13,6 +13,12 @@ include ('../conexao.php');
 
 $dateInicioConsulta = date("Y-m-d");
 
+if ( isset( $_POST['id_atividade']) ){
+    $idatividade = $_POST['id_atividade'];
+}
+
+//echo $idatividade;
+
 
 ?>
 
@@ -63,9 +69,9 @@ $dateInicioConsulta = date("Y-m-d");
 
                 <?php
 
-                    $id_atividade = $_POST['id_atividade'];
 
-                    $query = "SELECT * FROM atividade WHERE id_atividade = {$id_atividade}";
+
+                    $query = "SELECT * FROM atividade WHERE id_atividade = {$idatividade}";
                     $resultado = mysqli_query($conexao, $query);
 
 
@@ -73,10 +79,17 @@ $dateInicioConsulta = date("Y-m-d");
 
 
 
+
     ?>
 
     <div class="row">
     <form class="form-group" action="update-atividade.php" method="post">
+    <div class="form-group form-inline row" style="visibility: hidden">
+            <label for="example-date-input" class="col-2 col-form-label">ID</label>
+            <div class="col-10 row">
+                <input class="form-control" type="text" value="<?= $exibe['id_atividade'] ?>" name="idatividade" id="idatividade">
+            </div>
+        </div>
         <div class="form-group form-inline row">
             <label for="example-date-input" class="col-2 col-form-label">Inicio</label>
             <div class="col-10 row">
@@ -109,7 +122,7 @@ $dateInicioConsulta = date("Y-m-d");
         </div>
         <div class="form-group row">
             <input type="submit" value="Gravar"><input type="button" value="Voltar"
-                                                       onclick="window.location.href = '../consultar-registros.php'">
+            onclick="window.location.href = '../consultar-registros.php'">
         </div>
         <br>
 

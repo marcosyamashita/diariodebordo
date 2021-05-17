@@ -23,6 +23,7 @@ include "header.php";
         $query = "SELECT * FROM atividade where dateInicio = '{$dateInicioConsulta}'";
         $resultado = mysqli_query($conexao, $query);
 
+
         ?>
     </form>
 
@@ -47,12 +48,13 @@ include "header.php";
                 echo "<td>". date('d/m/Y', strtotime($exibe['dateInicio'])). "</td>";
                 echo "<td>{$exibe['usuario']}</td>";
                 echo "<td class='text-center'><form action='controller/editar-atividade.php' method='post'><button type='submit' name='id_atividade' value='{$exibe['id_atividade']}'>Editar</button></form></td>";
-                echo "<td class='text-center'><form action='controller/excluir-atividade.php' method='get'><button type='submit'>Excluir</button></form></td>";
+                echo "<td class='text-center'><form action='controller/excluir-atividade.php' method='post'><button type='submit'>Excluir</button></form></td>";
                 echo "</tr>";
             } ?>
             </tbody>
         </table>
         <?php
+
         mysqli_close($conexao);
         }
         ?>
