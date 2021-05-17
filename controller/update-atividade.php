@@ -1,6 +1,6 @@
 <?php
 
-include ('editar-atividade.php');
+include '../conexao.php';
 
 $idatividade = $_POST['idatividade'];
 $dateInicio = $_POST['dateInicio'];
