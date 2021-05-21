@@ -2,6 +2,14 @@
 
 include "conexao.php";
 
+if (isset($_POST['dateInicioConsulta'] & $_POST['dateFimConsulta'])){
+
+    $dateInicioConsulta = $_POST['dateInicioConsulta'];
+    $dateFimConsulta = $_POST['dateFimConsulta'];
+
+    $query = "SELECT * FROM atividade WHERE dateInicio BETWEEN '{$dateInicioConsulta}' AND '{$dateFimConsulta}'";
+    $resultado = mysqli_query($conexao, $query);
+
 ?>
 
 <!DOCTYPE html>
@@ -49,7 +57,7 @@ include "conexao.php";
         <?php
         
         mysqli_close($conexao);
-        
+}
         ?>
     </div>
     
